@@ -1,0 +1,48 @@
+.team-member
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #708090;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c0c0c0;
+    justify-content: center;
+    padding: 20px;
+}
+
+.team-member {
+    margin: 20px;
+    text-align: center;
+}
+
+.img-founder {
+    width: 150px;
+    height: 150px;
+}
+
+*{
+    box sizing: border-circle;
+}
+
+.clm {
+    float: left;
+    width: 33.33%;
+    padding:35px; 
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
